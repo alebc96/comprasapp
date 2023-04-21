@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "comprasapp-f1f60",
+    "private_key_id": "dec021185eec48ea98bd5d009e24de5da7b5d82b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDox7SBMd3H2qxT\n1hE8x78dbO/UVRAxxuIKYhPEoMYQwktQ4xwOOc9yWCGEThxgumlwtsML+pT0mgz8\nU7xVWMQxJaOMY/cFCWMzw9BWgMglB0unXZR0JFt8jJyKV9NBOYMlpC5Qj/iNC45o\najueuKpYShuy+bLQB/5yUz13c8h18A6SpblxlcYDxWwJ45yxV5V8AbZQas5XPUSn\nx3Tp4HUKK2MJtBaPl2w9V85syy/txEr8jjmH8+PEwwjRACzFjAFZZRA1UGWJ3QDG\njTg9IcVXOk/oB3VZWFS7+b/URhzLq4lpdRwMHyBetdX0OjANtOUR9iQJaIVREQRg\nty7Kxgm/AgMBAAECggEAF08sFYXLSgBtIiX86uOrkQRADbiI2xsptlV02kspGjOC\nfDKJtCj4y1/k101FDTCNb2J1rITmlom4hCnUYY12c99rfZri+OekPeI9QfQ6Vm7h\nFfzKaUjcul+QK1A5EL50EfhbROjtwB3ooC8HElE2iYm+NVFIpQkv4v3P2V7IM3rp\n6id74FAoQyU2zVXHApATOo6ScmAGOi2EgjDK2A5J5H3lN1/R2M2tJsSXO+Byjm/d\nwgfgZF2HM2XMBzPXYV8/ZZKjsGl0YYrbt6nz7CDYWA3oBfmrmua60TJzdnebqgVu\n9anBIKfbTYT/HNGpQ9WNYDWB4YMTkA/DSI1QFdEBCQKBgQD7CCM4PJ/G6b7CU1Jl\nppMpgcsJiqIu3CIomOGxU4xp7GOy/46PeQtPTXbAmxAyMGLZ/Rf9fLTdwNty1nZy\ne/EPkAZg+eEGrOrN8ZMkLnyy3l9fKaPvKYscoLuIoJ9APOGSpp44UmC7RDvCGwKQ\n4u5DxHBGZDIaPdIBeRxCwt0yuQKBgQDtYxg42iU77NqajlhnV5LeSibgOmxciFwN\nndYPs2KdkQ+66at1UH68Ch+CFqI5BO1XaWMQevj6tJQvtxh61IhdjrK4Zbw6NreY\nm19m+AJEWYVUus/UuseN5CavyIxjcpnJs4oRhrhKo+pNgwPaU0Fihrwk4EFRib6P\nHLZ/En9ENwKBgHp2DtBparyb3Q5pnWGvcE0oX0dJVTMs+pD5e+iIzJAD3OM+nmpJ\nb4YBUTRGsRD6385eFKz5gDZJ1gRgsSnKYt/nr+TxIaCjDGzpM5HMB9MufjIrWyja\nCF4v3yyYxveMe7KSC8+ICF5yvABGMutBeWCf3PHKAVMh42gKkAnVjBkpAoGAb6dh\nWDQ6uSHhfDqhmBHXsZg9CtBP8YHtkjX/3iiopKX7ORX5IFe5FGbKhRxyNtF7dNbL\n0o+Ulg7jeEHtULCwZxjcNOEdFGByIGRMDhlur4lPrhej81Ha1IFQNPPmHExlyzoY\nIcA05F6OsOCDqmfoZBgtXEbiUiCwsY12xPQFSicCgYBKow/M/TD/QjfSbsWgBs0O\ntjR0BWhuzYnlFKXc3kWmtocmZ44/V9KyA0fNSEr6XOJHhxTr5b/1WHzIZ+3Okixx\nVtKj1jGKCfh2FIia8qQG7RAezeJeaF04nJ3Ycvs/g/MPRByysm4p2LrwJHwnbh+L\nPLgliAzqwoGtUDXC7YnGjg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-nocvb@comprasapp-f1f60.iam.gserviceaccount.com",
+    "client_id": "106063257703482691432",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nocvb%40comprasapp-f1f60.iam.gserviceaccount.com"
+}
