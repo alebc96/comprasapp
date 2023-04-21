@@ -1,0 +1,2 @@
+# comprasapp
+npm run dev
