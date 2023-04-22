@@ -4,5 +4,6 @@ export default interface Product{
     amount: number
     price: number,
     total_price: number
-    listId: any
+    listId: any,
+    paid: boolean
 }

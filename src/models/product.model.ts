@@ -24,6 +24,9 @@ export const ProductSchema = new Schema<Product>({
     listId:{
         type: Schema.Types.ObjectId,
         ref: 'List'
+    },
+    paid:{
+        type: Boolean,
     }
 })
 
