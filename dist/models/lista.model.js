@@ -9,6 +9,10 @@ exports.ListSchema = new mongoose_1.Schema({
     },
     description: {
         type: String
+    },
+    userId: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'User'
     }
 });
 exports.ListModel = (0, mongoose_1.model)('List', exports.ListSchema);

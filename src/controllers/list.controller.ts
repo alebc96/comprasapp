@@ -2,10 +2,12 @@ import { ListModel } from "../models/lista.model";
 import { Request, Response } from "express";
 
 export const createList = async (req: Request, res: Response) => {
+  const {userId} = req.query
+  const {name, description} = req.body
   if (!req.body.name) {
     return res.status(400).send("Please introduce a valid List");
   }
-  const newList = new ListModel(req.body);
+  const newList = new ListModel({name, description, userId});
   try {
     const list = await newList.save();
     res.status(201).send(list);
