@@ -9,6 +9,10 @@ export const ListSchema = new Schema<ListOfProducts>({
     },
     description: {
         type: String
+    },
+    userId: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
     }
 })
 export const ListModel = model<ListOfProducts>('List', ListSchema)

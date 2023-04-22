@@ -12,10 +12,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.deleteList = exports.updateList = exports.getListById = exports.getAllList = exports.createList = void 0;
 const lista_model_1 = require("../models/lista.model");
 const createList = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { userId } = req.query;
+    const { name, description } = req.body;
     if (!req.body.name) {
         return res.status(400).send("Please introduce a valid List");
     }
-    const newList = new lista_model_1.ListModel(req.body);
+    const newList = new lista_model_1.ListModel({ name, description, userId });
     try {
         const list = yield newList.save();
         res.status(201).send(list);
