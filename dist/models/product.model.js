@@ -25,6 +25,9 @@ exports.ProductSchema = new mongoose_1.Schema({
     listId: {
         type: mongoose_1.Schema.Types.ObjectId,
         ref: 'List'
+    },
+    paid: {
+        type: Boolean,
     }
 });
 exports.ProductSchema.pre('save', function (next) {

@@ -72,7 +72,7 @@ exports.getProductById = getProductById;
 const deleteProductById = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { productId } = req.query;
     try {
-        const product = product_model_1.ProductModel.findByIdAndDelete(productId);
+        const product = yield product_model_1.ProductModel.findByIdAndDelete(productId);
         if (product) {
             res.status(200).send(product);
         }
