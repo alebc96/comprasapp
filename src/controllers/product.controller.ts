@@ -54,7 +54,7 @@ export const getProductById = async( req: Request, res: Response) => {
 export const deleteProductById = async( req: Request, res: Response) => {
     const {productId} = req.query
     try {
-        const product = ProductModel.findByIdAndDelete(productId)
+        const product = await ProductModel.findByIdAndDelete(productId)
         if(product){
             res.status(200).send(product)
         }else{
